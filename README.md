@@ -1,5 +1,5 @@
 # Borderlands2PS3ProfileEditor
-Python tool to modify Borderlands 2 Profile for PS3
+A Python tool to modify Borderlands 2 Profile for PS3
 
 ## Instructions
 1. Download Python Files and example config
@@ -40,3 +40,10 @@ Note that the perecentages don't match because some values aren't possible in ga
 - 3 tokens == 2.3 $
   
 ![](/images/bar_stats.png)
+
+## Acknowledgements
+Unknowingly, the following people help create this tool with their publicily available materials
+- withmorten
+- protobuffers
+- swimmesberger
+I simply stood on the shoulder of giants.
