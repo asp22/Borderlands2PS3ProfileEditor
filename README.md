@@ -22,4 +22,21 @@ Python tool to modify Borderlands 2 Profile for PS3
 8. Copy Save back to PS3
 
 ## Screenshots
-I used RPCS3 for this imagines
+*I used RPCS3 for these imagines* - easier to capture screen with my current setup
+
+### Default FOV
+
+![](/images/fov_70.png)
+
+### Modified FOV
+
+![](/images/fov_90.png)
+
+### Modified Stats - using example `config.ini`.
+
+Note that the perecentages don't match because some values aren't possible in game. e.g.
+- 1 token == 1.0 %
+- 2 tokens == 1.7 %
+- 3 tokens == 2.3 $
+  
+![](/images/bar_stats.png)
