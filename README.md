@@ -42,7 +42,7 @@ Note that the perecentages don't match because some values aren't possible in ga
 ![](/images/bar_stats.png)
 
 ## Acknowledgements
-Unknowingly, the following people help create this tool with their publicily available materials
+Unknowingly, the following people helped to create this tool with their publicily available materials
 - withmorten
 - protobuffers
 - swimmesberger
