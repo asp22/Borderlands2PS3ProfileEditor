@@ -9,7 +9,7 @@ A Python tool to modify Borderlands 2 Profile for PS3
     1. *Before decrypting* - click the verify PFD button. If this fails, it means that one of your config settings is not correct. e.g. for me, I had the wrong console id; I was using the PSID but should have used the IDPS
 3. Edit `config.ini`
     1. BarStat values are percentages; the tool currently doesn't prevent invalid values, so don't put in massive values
-    2. Golden Keys is limited to 752. (but you can always redo the edit if you run out)    
+    2. Golden Keys is limited to 765. (but you can always redo the edit if you run out)    
     4. If you don't want to update a field just comment it out
     5. For now I've limited features to BarStats, BarRank, BarTokens and GoldenKeys as this is what most people are interested in; FOV was a bouns as I was curious if it would work
 4. Run the tool
@@ -37,7 +37,7 @@ A Python tool to modify Borderlands 2 Profile for PS3
 Note that the perecentages don't match because some values aren't possible in game. e.g.
 - 1 token == 1.0 %
 - 2 tokens == 1.7 %
-- 3 tokens == 2.3 $
+- 3 tokens == 2.3 %
   
 ![](/images/bar_stats.png)
 
