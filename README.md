@@ -34,12 +34,23 @@ You can choose between two methods
 4. Run the tool
 
        python3 app.py --payload <path to decrpyted PAYLOAD>
+
+   Interface
+
+   | Key | Action |
+   |----------|----------|
+   | `Up`/`Down Arrow` | Menu Navigation / Increment or Decrement Value|
+   | `Left Arrow` | Navigate to Submenu |
+   | `Right Arrow` | Return to previous menu |
+   | `Q` | Return to previous menu / Exit Application |
+   | `Enter` | Accept modified Value |
+   | `Ctrl + c` | Abort |
    
-5. Edit values and save (use last menu item)
-6. This will create a new `PAYLOAD.new` file in the same location as `PAYLOAD`.
-7. Replace `PAYLOAD` with `PAYLOAD.new`
-8. Encrypt save using Brutefroce Save Data
-9. Copy Save back to PS3
+6. Edit values and save (use last menu item)
+7. This will create a new `PAYLOAD.new` file in the same location as `PAYLOAD`.
+8. Replace `PAYLOAD` with `PAYLOAD.new`
+9. Encrypt save using Brutefroce Save Data
+10. Copy Save back to PS3
 
 ## Screenshots
 *I used RPCS3 for these imagines* - easier to capture screen with my current setup
