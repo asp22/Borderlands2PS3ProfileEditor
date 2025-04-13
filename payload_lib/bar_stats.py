@@ -7,7 +7,8 @@ class BarStats:
         self._init_item(items)
         self._init_stat_points()
 
-    def _pts_to_pct(self, pts):
+    @staticmethod
+    def pts_to_pct(pts):
         pct = round(pow(pts, 0.75) * 10) / 10
         return pct
 
@@ -30,7 +31,7 @@ class BarStats:
         self.stat_points = decoder.decode(self.item.get())
 
     def stats_as_pct(self):
-        return [self._pts_to_pct(f) for f in self.stat_points]
+        return [BarStats.pts_to_pct(f) for f in self.stat_points]
 
     def set_stats(self, floats):
         pcts = self.stats_as_pct()

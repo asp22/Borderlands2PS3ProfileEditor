@@ -66,7 +66,7 @@ class GoldenKeys:
         i = 0
         while i != remainder:
             self.keys[i].add()
-            ++i
+            i += 1
 
         b = b""
         for k in self.keys:
