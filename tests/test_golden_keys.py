@@ -34,3 +34,19 @@ class TestGoldenKeys:
         g.set(255)
         assert g.get() == 255
         assert g.item.get() != old_bytes
+
+    def test_set_golden_keys2(self):
+        u = Uncompressor(self.payload_path)
+        items = Parser(u.get()).get()
+        golden_key_item = None
+        for i in items:
+            if i.id == 162:
+                golden_key_item = i
+
+        old_bytes = golden_key_item.get()
+
+        g = GoldenKeys(items)
+        assert golden_key_item == g.item
+        g.set(644)
+        assert g.get() == 644
+        assert g.item.get() != old_bytes
